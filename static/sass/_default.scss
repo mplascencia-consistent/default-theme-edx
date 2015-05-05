@@ -86,17 +86,20 @@ $site-status-color: $bg-color;
 
 header.global{
 	h1.logo{
+		margin: -20px 39px 0 0;
 		a{
-			background: url('../themes/default/images/logo-header.png');
+			background: url('../themes/default/images/logo-header.png') no-repeat scroll 0% 0% / contain transparent;
+			height: 80px;
 			text-indent: -9999999px;
+			width: 125px;
 		}
 	}
 }
 div.footer-container{
 	ul.links{
+		list-style: none;
 		margin:0;
 		padding: 0;
-		list-style: none;
 		li{
 			margin: 5px 10px;
 			float: left;
@@ -204,8 +207,6 @@ $homepage-bg-image: url('../themes/default/images/banner.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
-
-$video-thumb-url: '../themes/default/images/edx.png';
 
 //-----------------
 //  Mixin Styles
