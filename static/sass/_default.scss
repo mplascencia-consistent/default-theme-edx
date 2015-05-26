@@ -86,12 +86,13 @@ $site-status-color: $bg-color;
 
 header.global{
 	h1.logo{
-		margin: -20px 39px 0 0;
+		margin: -23px 39px 0 0!important;
 		a{
 			background: url('../themes/default/images/logo-header.png') no-repeat scroll 0% 0% / contain transparent;
+			background-size:contain;
 			height: 80px;
 			text-indent: -9999999px;
-			width: 125px;
+			width: 145px;
 		}
 	}
 }
@@ -106,6 +107,11 @@ div.footer-container{
 		}
 	}
 }
+header{
+	div.outer-wrapper{
+		display:none!important;
+	}
+} 
 
 $header-graphic-super-color: $dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
